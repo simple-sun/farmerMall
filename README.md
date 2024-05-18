@@ -6,7 +6,10 @@ npm install element-plus --save
 npm install -D unplugin-vue-components unplugin-auto-import
 # 安装更改css配置
 npm install sass -D
+# 安装axios
+npm install axios
 ```
+
 
 
 
