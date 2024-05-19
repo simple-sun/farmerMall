@@ -6,11 +6,18 @@ import { RouterLink, RouterView } from 'vue-router'
 <template>
   
   <el-button type="primary">primary</el-button>
+  <div class="test">
+    testPrice
+  </div>
   
   <RouterView />
 </template>
 
-<style scoped>
+<style scoped lang="scss">
+.test {
+  color: $priceColor;
+}
+
 header {
   line-height: 1.5;
   max-height: 100vh;
